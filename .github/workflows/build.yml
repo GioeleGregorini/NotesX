@@ -11,8 +11,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          node-version-file: '' # Evita forzature su Node 20
 
       - name: Set up JDK 17
         uses: actions/setup-java@v5
