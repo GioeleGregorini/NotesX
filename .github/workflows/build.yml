@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04 # Fissiamo esplicitamente ubuntu-24.04 per evitare warning futuri sulla migrazione
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
